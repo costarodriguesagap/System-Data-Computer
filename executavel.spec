@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['System_Information.py'],
-             pathex=['D:\\GitHub\\Hardware and System Data'],
+             pathex=['D:\\GitHub\\Hardware and System Data\\System-Data-Computer'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -27,4 +27,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=True, icon='D:\\GitHub\Hardware and System Data\\PCboard.ico')
+          console=True, icon='D:\\GitHub\\Hardware and System Data\\System-Data-Computer\\PCboard.ico')
